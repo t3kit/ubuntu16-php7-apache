@@ -27,6 +27,7 @@ RUN apt-get update && apt-get install -yq \
     php7.0-mcrypt \
     php7.0-intl \
     php-imagick \
+    php-xdebug \
     # Install tools
     nano \
     graphicsmagick \
@@ -34,6 +35,8 @@ RUN apt-get update && apt-get install -yq \
     ghostscript \
     mysql-client \
     iputils-ping \
+    apt-utils \
+    locales \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # ======= composer =======
