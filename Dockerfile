@@ -48,7 +48,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - && apt-get install -y
 # Set locales
 RUN locale-gen en_US.UTF-8 en_GB.UTF-8 de_DE.UTF-8 es_ES.UTF-8 fr_FR.UTF-8 it_IT.UTF-8 km_KH sv_SE.UTF-8 fi_FI.UTF-8
 
-RUN a2enmod rewrite
+RUN a2enmod rewrite expires
 
 # Configure PHP
 ADD typo3.php.ini /etc/php/7.0/apache2/conf.d/
