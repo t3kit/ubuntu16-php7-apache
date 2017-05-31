@@ -1,4 +1,9 @@
 
+#### v0.1.2 `May 31, 2017`
+- **[TASK]** Add testing context ([26d7b81](https://github.com/t3kit/ubuntu16-php7-apache/commit/26d7b81))
+
+***
+
 #### v0.1.1 `May 18, 2017`
 - **[TASK]** add mod expires, set xdebug.remote_connect_back default to on (#2) ([5bfb071](https://github.com/t3kit/ubuntu16-php7-apache/commit/5bfb071))
 
